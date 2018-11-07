@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_b5043cf3349a4fe78144d9b613f2fa09 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_b5043cf3349a4fe78144d9b613f2fa09" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_b5043cf3349a4fe78144d9b613f2fa09 = L.map(
+        'map_b5043cf3349a4fe78144d9b613f2fa09', {
+        center: [51.7681, 19.508],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_dbd719f59863475f8ac954ccbbc2f444 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_b5043cf3349a4fe78144d9b613f2fa09);
+    
+            var feature_group_6ce04270b707401ea6b53117b622c4e9 = L.featureGroup(
+                ).addTo(map_b5043cf3349a4fe78144d9b613f2fa09);
+        
+    
+        var marker_701e7c4514fd484da5a7c317d761aac0 = L.marker(
+            [50.0121, 20.985842],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_239908f448c34ae8bf282fbbbfa8ce83 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_701e7c4514fd484da5a7c317d761aac0.setIcon(icon_239908f448c34ae8bf282fbbbfa8ce83);
+            
+    
+            var popup_0055f478a3a8488082ef88a4242a79bf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fb1133abbba84a189d314adcafe4b51e = $('<div id="html_fb1133abbba84a189d314adcafe4b51e" style="width: 100.0%; height: 100.0%;">Tarnow</div>')[0];
+                popup_0055f478a3a8488082ef88a4242a79bf.setContent(html_fb1133abbba84a189d314adcafe4b51e);
+            
+
+            marker_701e7c4514fd484da5a7c317d761aac0.bindPopup(popup_0055f478a3a8488082ef88a4242a79bf)
+            ;
+
+            
+        
+    
+        var marker_520041f71b1f4ea89c218ead0232f5e7 = L.marker(
+            [50.286263, 19.104078],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_b2597f66a8d64457a78a6c397cf2fd5d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_520041f71b1f4ea89c218ead0232f5e7.setIcon(icon_b2597f66a8d64457a78a6c397cf2fd5d);
+            
+    
+            var popup_cb77619e0c1145f781303158cdec4d8f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a7dbc47745d54e5dbc117cfaa895d963 = $('<div id="html_a7dbc47745d54e5dbc117cfaa895d963" style="width: 100.0%; height: 100.0%;">Sosnowiec</div>')[0];
+                popup_cb77619e0c1145f781303158cdec4d8f.setContent(html_a7dbc47745d54e5dbc117cfaa895d963);
+            
+
+            marker_520041f71b1f4ea89c218ead0232f5e7.bindPopup(popup_cb77619e0c1145f781303158cdec4d8f)
+            ;
+
+            
+        
+    
+        var marker_84211cc4423a437e83ec6cf83d665eaf = L.marker(
+            [50.435947, 18.846025],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_a1be3e50253742638e03ae9cdf93951b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_84211cc4423a437e83ec6cf83d665eaf.setIcon(icon_a1be3e50253742638e03ae9cdf93951b);
+            
+    
+            var popup_a17bfc2409d74f72962760c80d341abf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7d843b349dbb45ce8be63c818e9e5c99 = $('<div id="html_7d843b349dbb45ce8be63c818e9e5c99" style="width: 100.0%; height: 100.0%;">Tarnowskie Gory</div>')[0];
+                popup_a17bfc2409d74f72962760c80d341abf.setContent(html_7d843b349dbb45ce8be63c818e9e5c99);
+            
+
+            marker_84211cc4423a437e83ec6cf83d665eaf.bindPopup(popup_a17bfc2409d74f72962760c80d341abf)
+            ;
+
+            
+        
+    
+        var marker_0567332ff7b349918615f236cb2d5b46 = L.marker(
+            [52.406376, 16.925167000000002],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_f59b72b108934cddba78acd917089612 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0567332ff7b349918615f236cb2d5b46.setIcon(icon_f59b72b108934cddba78acd917089612);
+            
+    
+            var popup_3b4a738c97574a6db526567c0c594159 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b6743c7e5f64c1a97a0faef47e335ca = $('<div id="html_7b6743c7e5f64c1a97a0faef47e335ca" style="width: 100.0%; height: 100.0%;">Poznan</div>')[0];
+                popup_3b4a738c97574a6db526567c0c594159.setContent(html_7b6743c7e5f64c1a97a0faef47e335ca);
+            
+
+            marker_0567332ff7b349918615f236cb2d5b46.bindPopup(popup_3b4a738c97574a6db526567c0c594159)
+            ;
+
+            
+        
+    
+        var marker_43a2b75c4c8044ff815fc7d520545df6 = L.marker(
+            [53.01379, 18.598444],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_751fec6bcdee4e8cad1386cc445f0ac2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_43a2b75c4c8044ff815fc7d520545df6.setIcon(icon_751fec6bcdee4e8cad1386cc445f0ac2);
+            
+    
+            var popup_925c4945aca148b6ba8c8673b31e42e5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c24dfb845bae4b8598449d1fdb7500e5 = $('<div id="html_c24dfb845bae4b8598449d1fdb7500e5" style="width: 100.0%; height: 100.0%;">Torun</div>')[0];
+                popup_925c4945aca148b6ba8c8673b31e42e5.setContent(html_c24dfb845bae4b8598449d1fdb7500e5);
+            
+
+            marker_43a2b75c4c8044ff815fc7d520545df6.bindPopup(popup_925c4945aca148b6ba8c8673b31e42e5)
+            ;
+
+            
+        
+    
+        var marker_a882c378832f499999cde13943b9e719 = L.marker(
+            [51.935619, 15.506185999999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_c3e894b48fe74686b64f4139c5ae3929 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a882c378832f499999cde13943b9e719.setIcon(icon_c3e894b48fe74686b64f4139c5ae3929);
+            
+    
+            var popup_52c78c0c2f6a440aa78f0466d36c2d88 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc6f84327bec42b48d6180bdae203114 = $('<div id="html_bc6f84327bec42b48d6180bdae203114" style="width: 100.0%; height: 100.0%;">Zielona Gora</div>')[0];
+                popup_52c78c0c2f6a440aa78f0466d36c2d88.setContent(html_bc6f84327bec42b48d6180bdae203114);
+            
+
+            marker_a882c378832f499999cde13943b9e719.bindPopup(popup_52c78c0c2f6a440aa78f0466d36c2d88)
+            ;
+
+            
+        
+    
+        var marker_85091bb0c20245be826271a51b0ff17c = L.marker(
+            [53.428543000000005, 14.552812],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_d9cd6322028543e88263630cc68baf9b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_85091bb0c20245be826271a51b0ff17c.setIcon(icon_d9cd6322028543e88263630cc68baf9b);
+            
+    
+            var popup_1837a5ace4204e1a97958b20e439a221 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ed2dcad584ab4641854d991bfdc91249 = $('<div id="html_ed2dcad584ab4641854d991bfdc91249" style="width: 100.0%; height: 100.0%;">Szczecin</div>')[0];
+                popup_1837a5ace4204e1a97958b20e439a221.setContent(html_ed2dcad584ab4641854d991bfdc91249);
+            
+
+            marker_85091bb0c20245be826271a51b0ff17c.bindPopup(popup_1837a5ace4204e1a97958b20e439a221)
+            ;
+
+            
+        
+    
+        var marker_53a1a3d68c924b5284203749a27f4d65 = L.marker(
+            [50.041187, 21.999121],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_c7b0c807a1a34b76ab63a2f3d03c5b4f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_53a1a3d68c924b5284203749a27f4d65.setIcon(icon_c7b0c807a1a34b76ab63a2f3d03c5b4f);
+            
+    
+            var popup_33fb0206fa90422197dcb37a7381db25 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_019e5dab156440b09b2aa39f2f67449e = $('<div id="html_019e5dab156440b09b2aa39f2f67449e" style="width: 100.0%; height: 100.0%;">Rzeszow</div>')[0];
+                popup_33fb0206fa90422197dcb37a7381db25.setContent(html_019e5dab156440b09b2aa39f2f67449e);
+            
+
+            marker_53a1a3d68c924b5284203749a27f4d65.bindPopup(popup_33fb0206fa90422197dcb37a7381db25)
+            ;
+
+            
+        
+    
+        var marker_b613160a8c324bc6b9720f463456c9bc = L.marker(
+            [50.049683, 19.944544],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_1268e2cbafba4ee791d4613023cd1725 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b613160a8c324bc6b9720f463456c9bc.setIcon(icon_1268e2cbafba4ee791d4613023cd1725);
+            
+    
+            var popup_2f3fbf1e636a434f8ff20c4534ac1212 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a5c77c0ddbdb4493a1e6d359fa94d302 = $('<div id="html_a5c77c0ddbdb4493a1e6d359fa94d302" style="width: 100.0%; height: 100.0%;">Krakow</div>')[0];
+                popup_2f3fbf1e636a434f8ff20c4534ac1212.setContent(html_a5c77c0ddbdb4493a1e6d359fa94d302);
+            
+
+            marker_b613160a8c324bc6b9720f463456c9bc.bindPopup(popup_2f3fbf1e636a434f8ff20c4534ac1212)
+            ;
+
+            
+        
+    
+        var marker_5f797687027c4c50931193669a740634 = L.marker(
+            [53.770226, 20.490189],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_79806cc54c2e40df87f97d0f676df5a8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5f797687027c4c50931193669a740634.setIcon(icon_79806cc54c2e40df87f97d0f676df5a8);
+            
+    
+            var popup_50292dc35c994aa792baa099cf145c8e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae213767b1fd45d5bc0e48e36f4d1184 = $('<div id="html_ae213767b1fd45d5bc0e48e36f4d1184" style="width: 100.0%; height: 100.0%;">Olsztyn</div>')[0];
+                popup_50292dc35c994aa792baa099cf145c8e.setContent(html_ae213767b1fd45d5bc0e48e36f4d1184);
+            
+
+            marker_5f797687027c4c50931193669a740634.bindPopup(popup_50292dc35c994aa792baa099cf145c8e)
+            ;
+
+            
+        
+    
+        var marker_63e92449b03343cbaf342b50b9f34260 = L.marker(
+            [53.123481999999996, 18.008438],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_30e842f84caf40cab6ce97c8823958fb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_63e92449b03343cbaf342b50b9f34260.setIcon(icon_30e842f84caf40cab6ce97c8823958fb);
+            
+    
+            var popup_79107d731e114e8ca1b51218b03b5db3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_916dbc6c8a3f4679aa6c84f22366f948 = $('<div id="html_916dbc6c8a3f4679aa6c84f22366f948" style="width: 100.0%; height: 100.0%;">Bydgoszcz</div>')[0];
+                popup_79107d731e114e8ca1b51218b03b5db3.setContent(html_916dbc6c8a3f4679aa6c84f22366f948);
+            
+
+            marker_63e92449b03343cbaf342b50b9f34260.bindPopup(popup_79107d731e114e8ca1b51218b03b5db3)
+            ;
+
+            
+        
+    
+        var marker_3ec96ac9196045c09841b6ed24a726ea = L.marker(
+            [52.409538, 16.931992],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_8900fa12c2244797a9fa9e28cecf5fef = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3ec96ac9196045c09841b6ed24a726ea.setIcon(icon_8900fa12c2244797a9fa9e28cecf5fef);
+            
+    
+            var popup_0e0ad1751f904f0cbe46be53097760b8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eac06daabf554c5599a8a2a15afa8aae = $('<div id="html_eac06daabf554c5599a8a2a15afa8aae" style="width: 100.0%; height: 100.0%;">Poznan</div>')[0];
+                popup_0e0ad1751f904f0cbe46be53097760b8.setContent(html_eac06daabf554c5599a8a2a15afa8aae);
+            
+
+            marker_3ec96ac9196045c09841b6ed24a726ea.bindPopup(popup_0e0ad1751f904f0cbe46be53097760b8)
+            ;
+
+            
+        
+    
+        var marker_f28d99cba933455b9da67f8fc8070aa9 = L.marker(
+            [51.107883, 17.038538],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_0b14f01bcfca4a4393f85497737683d4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f28d99cba933455b9da67f8fc8070aa9.setIcon(icon_0b14f01bcfca4a4393f85497737683d4);
+            
+    
+            var popup_228d35d30c6947c7ac2dffa0890c9ef4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fb2249c7272f4063b35de8a32e36c650 = $('<div id="html_fb2249c7272f4063b35de8a32e36c650" style="width: 100.0%; height: 100.0%;">Wroclaw</div>')[0];
+                popup_228d35d30c6947c7ac2dffa0890c9ef4.setContent(html_fb2249c7272f4063b35de8a32e36c650);
+            
+
+            marker_f28d99cba933455b9da67f8fc8070aa9.bindPopup(popup_228d35d30c6947c7ac2dffa0890c9ef4)
+            ;
+
+            
+        
+    
+        var marker_32802bd9aa1d4ee59b3ea68c9f2ec6ec = L.marker(
+            [50.096798, 18.542935999999997],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_dbab8e5657204148963ac686c36dac59 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_32802bd9aa1d4ee59b3ea68c9f2ec6ec.setIcon(icon_dbab8e5657204148963ac686c36dac59);
+            
+    
+            var popup_cd514853e63d4c88ae6e7564b7c0a958 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_67bdefe086c5434087238ef64aa2d662 = $('<div id="html_67bdefe086c5434087238ef64aa2d662" style="width: 100.0%; height: 100.0%;">Rybnik</div>')[0];
+                popup_cd514853e63d4c88ae6e7564b7c0a958.setContent(html_67bdefe086c5434087238ef64aa2d662);
+            
+
+            marker_32802bd9aa1d4ee59b3ea68c9f2ec6ec.bindPopup(popup_cd514853e63d4c88ae6e7564b7c0a958)
+            ;
+
+            
+        
+    
+        var marker_c86195edab5f4441bf2be7403fc9365b = L.marker(
+            [50.671062, 17.926126],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_8be5c0e0bb2a40399054e6524a85bcd2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c86195edab5f4441bf2be7403fc9365b.setIcon(icon_8be5c0e0bb2a40399054e6524a85bcd2);
+            
+    
+            var popup_32798352312c434b85e0dba2f1eb6609 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4e50aa79566c4f6fb3be154158fd0563 = $('<div id="html_4e50aa79566c4f6fb3be154158fd0563" style="width: 100.0%; height: 100.0%;">Opole</div>')[0];
+                popup_32798352312c434b85e0dba2f1eb6609.setContent(html_4e50aa79566c4f6fb3be154158fd0563);
+            
+
+            marker_c86195edab5f4441bf2be7403fc9365b.bindPopup(popup_32798352312c434b85e0dba2f1eb6609)
+            ;
+
+            
+        
+    
+        var marker_ea2d1bd87d0c4bb2ae0b2a39e9dc43b4 = L.marker(
+            [54.156059, 19.40449],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_52e6f6d34ec34b66b21fe8ea910b19d6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ea2d1bd87d0c4bb2ae0b2a39e9dc43b4.setIcon(icon_52e6f6d34ec34b66b21fe8ea910b19d6);
+            
+    
+            var popup_47a5fb5946b64a60a34ecac18e9cd013 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d7033b328f3540d88d5ddf9e0d0ff21f = $('<div id="html_d7033b328f3540d88d5ddf9e0d0ff21f" style="width: 100.0%; height: 100.0%;">Elblag</div>')[0];
+                popup_47a5fb5946b64a60a34ecac18e9cd013.setContent(html_d7033b328f3540d88d5ddf9e0d0ff21f);
+            
+
+            marker_ea2d1bd87d0c4bb2ae0b2a39e9dc43b4.bindPopup(popup_47a5fb5946b64a60a34ecac18e9cd013)
+            ;
+
+            
+        
+    
+        var marker_0925a2ed18954bfebc47d35a75ead52b = L.marker(
+            [51.759445, 19.457216],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_91004a4669cc41fcbd2326728bd0579b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0925a2ed18954bfebc47d35a75ead52b.setIcon(icon_91004a4669cc41fcbd2326728bd0579b);
+            
+    
+            var popup_608e9304727b4e8f8724d153ce7db204 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ad92d6aaa20a4dfa8efd4d956b0bdb27 = $('<div id="html_ad92d6aaa20a4dfa8efd4d956b0bdb27" style="width: 100.0%; height: 100.0%;">Lodz</div>')[0];
+                popup_608e9304727b4e8f8724d153ce7db204.setContent(html_ad92d6aaa20a4dfa8efd4d956b0bdb27);
+            
+
+            marker_0925a2ed18954bfebc47d35a75ead52b.bindPopup(popup_608e9304727b4e8f8724d153ce7db204)
+            ;
+
+            
+        
+    
+        var marker_abd0262860254d9889e5631f58997dcf = L.marker(
+            [54.17591899999999, 15.583267000000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_e1baed899a4c42d2bfdb1b640d761692 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_abd0262860254d9889e5631f58997dcf.setIcon(icon_e1baed899a4c42d2bfdb1b640d761692);
+            
+    
+            var popup_5b26908fd0694243a65d64a733f370e5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1ba84b9602704cfa9c0b5d2dda3d9870 = $('<div id="html_1ba84b9602704cfa9c0b5d2dda3d9870" style="width: 100.0%; height: 100.0%;">Kolobrzeg</div>')[0];
+                popup_5b26908fd0694243a65d64a733f370e5.setContent(html_1ba84b9602704cfa9c0b5d2dda3d9870);
+            
+
+            marker_abd0262860254d9889e5631f58997dcf.bindPopup(popup_5b26908fd0694243a65d64a733f370e5)
+            ;
+
+            
+        
+    
+        var marker_50eb24a1dad64d3e8c55574119c4fd8f = L.marker(
+            [51.246452000000005, 22.568445],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_25d24baa3e554160a6bfa63d75975f3f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_50eb24a1dad64d3e8c55574119c4fd8f.setIcon(icon_25d24baa3e554160a6bfa63d75975f3f);
+            
+    
+            var popup_2112a14202be4a13825e63c438ab1247 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5709abea7fa5492b90211e47acbb9ad2 = $('<div id="html_5709abea7fa5492b90211e47acbb9ad2" style="width: 100.0%; height: 100.0%;">Lublin</div>')[0];
+                popup_2112a14202be4a13825e63c438ab1247.setContent(html_5709abea7fa5492b90211e47acbb9ad2);
+            
+
+            marker_50eb24a1dad64d3e8c55574119c4fd8f.bindPopup(popup_2112a14202be4a13825e63c438ab1247)
+            ;
+
+            
+        
+    
+        var marker_9334c5b071ea4b22a4113ef393a8c071 = L.marker(
+            [51.143124, 23.471199],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_02a5ab84df444710aea2a72e95a73a09 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9334c5b071ea4b22a4113ef393a8c071.setIcon(icon_02a5ab84df444710aea2a72e95a73a09);
+            
+    
+            var popup_6e219fdab6834ff78693b505d1acb242 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9d5ae446148349c5a660b97bbff243f3 = $('<div id="html_9d5ae446148349c5a660b97bbff243f3" style="width: 100.0%; height: 100.0%;">Chelm</div>')[0];
+                popup_6e219fdab6834ff78693b505d1acb242.setContent(html_9d5ae446148349c5a660b97bbff243f3);
+            
+
+            marker_9334c5b071ea4b22a4113ef393a8c071.bindPopup(popup_6e219fdab6834ff78693b505d1acb242)
+            ;
+
+            
+        
+    
+        var marker_8fae5cf28b204027ba03cb261877d9b8 = L.marker(
+            [52.237049, 21.017532],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_c94f44e7cba546359e4ae7ae5f689396 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8fae5cf28b204027ba03cb261877d9b8.setIcon(icon_c94f44e7cba546359e4ae7ae5f689396);
+            
+    
+            var popup_9ec15eca841743b2a9bcaa3b064220a8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0a05498bfe824119ba1e5df9848ea772 = $('<div id="html_0a05498bfe824119ba1e5df9848ea772" style="width: 100.0%; height: 100.0%;">Warsaw</div>')[0];
+                popup_9ec15eca841743b2a9bcaa3b064220a8.setContent(html_0a05498bfe824119ba1e5df9848ea772);
+            
+
+            marker_8fae5cf28b204027ba03cb261877d9b8.bindPopup(popup_9ec15eca841743b2a9bcaa3b064220a8)
+            ;
+
+            
+        
+    
+        var marker_d854fe7a29d643bd819a19e1446d6687 = L.marker(
+            [50.270908, 19.039993],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_75b001ebe03444599e4f515bdc99f0ca = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d854fe7a29d643bd819a19e1446d6687.setIcon(icon_75b001ebe03444599e4f515bdc99f0ca);
+            
+    
+            var popup_29a195a668eb48e2b58882451f41488c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bd6b307b3bfa410d90a6a795c2d32f98 = $('<div id="html_bd6b307b3bfa410d90a6a795c2d32f98" style="width: 100.0%; height: 100.0%;">Katowice</div>')[0];
+                popup_29a195a668eb48e2b58882451f41488c.setContent(html_bd6b307b3bfa410d90a6a795c2d32f98);
+            
+
+            marker_d854fe7a29d643bd819a19e1446d6687.bindPopup(popup_29a195a668eb48e2b58882451f41488c)
+            ;
+
+            
+        
+    
+        var marker_afadf2c2199149918bfa1ebb66ee964d = L.marker(
+            [50.124981, 19.009438],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_312a63d093b34c15954223c0160e7887 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_afadf2c2199149918bfa1ebb66ee964d.setIcon(icon_312a63d093b34c15954223c0160e7887);
+            
+    
+            var popup_620d32e9089541c788236d6b275eea42 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_db4dbe8383d7468e8206f346ec96f7cf = $('<div id="html_db4dbe8383d7468e8206f346ec96f7cf" style="width: 100.0%; height: 100.0%;">Tychy</div>')[0];
+                popup_620d32e9089541c788236d6b275eea42.setContent(html_db4dbe8383d7468e8206f346ec96f7cf);
+            
+
+            marker_afadf2c2199149918bfa1ebb66ee964d.bindPopup(popup_620d32e9089541c788236d6b275eea42)
+            ;
+
+            
+        
+    
+        var marker_547d03176dd444cf91e838f5509d8d3c = L.marker(
+            [54.372158, 18.638306],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_e22ab73e03dc4c349587c724a685f2df = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_547d03176dd444cf91e838f5509d8d3c.setIcon(icon_e22ab73e03dc4c349587c724a685f2df);
+            
+    
+            var popup_d166f4f2c2fb405283ff9c990d2e1a00 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bf6e375c11ff40cf9c095be255da18c8 = $('<div id="html_bf6e375c11ff40cf9c095be255da18c8" style="width: 100.0%; height: 100.0%;">Gdansk</div>')[0];
+                popup_d166f4f2c2fb405283ff9c990d2e1a00.setContent(html_bf6e375c11ff40cf9c095be255da18c8);
+            
+
+            marker_547d03176dd444cf91e838f5509d8d3c.bindPopup(popup_d166f4f2c2fb405283ff9c990d2e1a00)
+            ;
+
+            
+        
+    
+        var marker_f3de2a07e0ae466e99df754ab29df945 = L.marker(
+            [51.963649, 19.287096],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_6ce04270b707401ea6b53117b622c4e9);
+        
+    
+
+                var icon_18c4be63bb54421386c8df68b9f9a8e2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f3de2a07e0ae466e99df754ab29df945.setIcon(icon_18c4be63bb54421386c8df68b9f9a8e2);
+            
+    
+            var popup_8b6d5440dd4349329ad0d9f0294f0e87 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_01a4f3dceacf44089b74c203d1daa806 = $('<div id="html_01a4f3dceacf44089b74c203d1daa806" style="width: 100.0%; height: 100.0%;">Ozorkow. MY CITY </div>')[0];
+                popup_8b6d5440dd4349329ad0d9f0294f0e87.setContent(html_01a4f3dceacf44089b74c203d1daa806);
+            
+
+            marker_f3de2a07e0ae466e99df754ab29df945.bindPopup(popup_8b6d5440dd4349329ad0d9f0294f0e87)
+            ;
+
+            
+        
+    
+            var feature_group_10a5410580dd4bf6b47651c6f8f41ede = L.featureGroup(
+                ).addTo(map_b5043cf3349a4fe78144d9b613f2fa09);
+        
+    
+        var marker_fb5efa87395d48dea438b1700d89bbad = L.marker(
+            [52.159058, 21.072165],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_10a5410580dd4bf6b47651c6f8f41ede);
+        
+    
+
+                var icon_976c3ade647946c7a906282536b1c68e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fb5efa87395d48dea438b1700d89bbad.setIcon(icon_976c3ade647946c7a906282536b1c68e);
+            
+    
+            var popup_91cff5d70e704a8699bb642481802f16 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_59867a66ae7a4f0981750352851f027b = $('<div id="html_59867a66ae7a4f0981750352851f027b" style="width: 100.0%; height: 100.0%;">Temple of Divine Providence Warszawa</div>')[0];
+                popup_91cff5d70e704a8699bb642481802f16.setContent(html_59867a66ae7a4f0981750352851f027b);
+            
+
+            marker_fb5efa87395d48dea438b1700d89bbad.bindPopup(popup_91cff5d70e704a8699bb642481802f16)
+            ;
+
+            
+        
+    
+        var marker_e7fef58e341047e78b071c8fdc53b612 = L.marker(
+            [50.020148999999996, 19.937567],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_10a5410580dd4bf6b47651c6f8f41ede);
+        
+    
+
+                var icon_d85563c421154e63997bbbb755999340 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e7fef58e341047e78b071c8fdc53b612.setIcon(icon_d85563c421154e63997bbbb755999340);
+            
+    
+            var popup_116d4193dfa942cca1c7b7e892965aa8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62778da317874640a0b3e383dcdf48f0 = $('<div id="html_62778da317874640a0b3e383dcdf48f0" style="width: 100.0%; height: 100.0%;">Divine Mercy Sanctuary Krakow</div>')[0];
+                popup_116d4193dfa942cca1c7b7e892965aa8.setContent(html_62778da317874640a0b3e383dcdf48f0);
+            
+
+            marker_e7fef58e341047e78b071c8fdc53b612.bindPopup(popup_116d4193dfa942cca1c7b7e892965aa8)
+            ;
+
+            
+        
+    
+        var marker_3e2ac1220f3a455fbf241d2edb172ca6 = L.marker(
+            [54.158676, 19.394453],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_10a5410580dd4bf6b47651c6f8f41ede);
+        
+    
+
+                var icon_904012573c924df39fd3a76dfdb87ff8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3e2ac1220f3a455fbf241d2edb172ca6.setIcon(icon_904012573c924df39fd3a76dfdb87ff8);
+            
+    
+            var popup_78ac6cce7b0a40dabe32f845a8011435 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_197e0dee674e43e983152bf23d92aa44 = $('<div id="html_197e0dee674e43e983152bf23d92aa44" style="width: 100.0%; height: 100.0%;">St. Nicholas Cathedral Elblag</div>')[0];
+                popup_78ac6cce7b0a40dabe32f845a8011435.setContent(html_197e0dee674e43e983152bf23d92aa44);
+            
+
+            marker_3e2ac1220f3a455fbf241d2edb172ca6.bindPopup(popup_78ac6cce7b0a40dabe32f845a8011435)
+            ;
+
+            
+        
+    
+        var marker_833d7e959ce540278326b8a0624e3dda = L.marker(
+            [51.113876, 17.046286],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_10a5410580dd4bf6b47651c6f8f41ede);
+        
+    
+
+                var icon_bf70b79630fc4add91c6f417c57d1d42 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_833d7e959ce540278326b8a0624e3dda.setIcon(icon_bf70b79630fc4add91c6f417c57d1d42);
+            
+    
+            var popup_7bd910d1d0ea4427a3b6319dc7ca0843 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_85d779d53459475aa963fb8433d12c93 = $('<div id="html_85d779d53459475aa963fb8433d12c93" style="width: 100.0%; height: 100.0%;">Wroclaw Cathedral Wroclaw</div>')[0];
+                popup_7bd910d1d0ea4427a3b6319dc7ca0843.setContent(html_85d779d53459475aa963fb8433d12c93);
+            
+
+            marker_833d7e959ce540278326b8a0624e3dda.bindPopup(popup_7bd910d1d0ea4427a3b6319dc7ca0843)
+            ;
+
+            
+        
+    
+        var marker_769a3d014e8c422da8a4bb355a2cefcb = L.marker(
+            [51.748816999999995, 19.458895000000002],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_10a5410580dd4bf6b47651c6f8f41ede);
+        
+    
+
+                var icon_e1439754a75e484ab90412429180f8d9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_769a3d014e8c422da8a4bb355a2cefcb.setIcon(icon_e1439754a75e484ab90412429180f8d9);
+            
+    
+            var popup_57c15c1c39104bf9a8f3adc05e3bf476 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_45aec8330c6149fca76ffb03682af6d2 = $('<div id="html_45aec8330c6149fca76ffb03682af6d2" style="width: 100.0%; height: 100.0%;">Archcathedral Basilica of St. Stanislaus Kostka Lodz</div>')[0];
+                popup_57c15c1c39104bf9a8f3adc05e3bf476.setContent(html_45aec8330c6149fca76ffb03682af6d2);
+            
+
+            marker_769a3d014e8c422da8a4bb355a2cefcb.bindPopup(popup_57c15c1c39104bf9a8f3adc05e3bf476)
+            ;
+
+            
+        
+    
+        var marker_204f63a46c144a2a96d6ebb3e97493e6 = L.marker(
+            [53.424507, 14.556992000000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(feature_group_10a5410580dd4bf6b47651c6f8f41ede);
+        
+    
+
+                var icon_021acf2b8eb249918529ad4dd9a65311 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_204f63a46c144a2a96d6ebb3e97493e6.setIcon(icon_021acf2b8eb249918529ad4dd9a65311);
+            
+    
+            var popup_dc5f3f41dcb242e3be5525b5e044ac96 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5706dde8b4854575b38e1b974f288f45 = $('<div id="html_5706dde8b4854575b38e1b974f288f45" style="width: 100.0%; height: 100.0%;">The Cathedral Basilica of St. James the Apostle Szczecin</div>')[0];
+                popup_dc5f3f41dcb242e3be5525b5e044ac96.setContent(html_5706dde8b4854575b38e1b974f288f45);
+            
+
+            marker_204f63a46c144a2a96d6ebb3e97493e6.bindPopup(popup_dc5f3f41dcb242e3be5525b5e044ac96)
+            ;
+
+            
+        
+    
+            var layer_control_fa5a7249d854475e97f4a97778dc3043 = {
+                base_layers : { "openstreetmap" : tile_layer_dbd719f59863475f8ac954ccbbc2f444, },
+                overlays : { "Towns Worth Visiting" : feature_group_6ce04270b707401ea6b53117b622c4e9,"Cathedral Worth Visiting" : feature_group_10a5410580dd4bf6b47651c6f8f41ede, }
+                };
+            L.control.layers(
+                layer_control_fa5a7249d854475e97f4a97778dc3043.base_layers,
+                layer_control_fa5a7249d854475e97f4a97778dc3043.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_b5043cf3349a4fe78144d9b613f2fa09);
+            
+        
+</script>
