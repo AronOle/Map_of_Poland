@@ -1,0 +1,7 @@
+Name,Latitude,Longitude
+Temple of Divine Providence Warszawa,52.159058,21.072165
+Divine Mercy Sanctuary Krakow,50.020149,19.937567
+St. Nicholas Cathedral Elblag,54.158676,19.394453
+Wroclaw Cathedral Wroclaw,51.113876,17.046286
+Archcathedral Basilica of St. Stanislaus Kostka Lodz,51.748817,19.458895
+The Cathedral Basilica of St. James the Apostle Szczecin,53.424507,14.556992
